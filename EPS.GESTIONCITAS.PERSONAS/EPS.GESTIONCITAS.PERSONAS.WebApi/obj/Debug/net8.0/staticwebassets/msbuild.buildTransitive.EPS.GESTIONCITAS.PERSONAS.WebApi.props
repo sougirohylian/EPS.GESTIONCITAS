@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EPS.GESTIONCITAS.PERSONAS.WebApi.props" />
+</Project>

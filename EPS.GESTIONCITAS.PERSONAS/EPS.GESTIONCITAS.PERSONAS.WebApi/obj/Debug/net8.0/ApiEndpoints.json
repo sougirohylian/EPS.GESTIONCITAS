@@ -1,0 +1,283 @@
+[
+  {
+    "ContainingType": "EPS.GESTIONCITAS.Clinicas.WebApi.Controllers.ClinicasController",
+    "Method": "GetAllClinicas",
+    "RelativePath": "api/Clinicas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetClinicas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.Clinicas.WebApi.Controllers.ClinicasController",
+    "Method": "PostClinicas",
+    "RelativePath": "api/Clinicas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinicas",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.CLINICAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostClinicas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.Clinicas.WebApi.Controllers.ClinicasController",
+    "Method": "PutClinicas",
+    "RelativePath": "api/Clinicas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinicas",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.CLINICAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutClinicas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.Clinicas.WebApi.Controllers.ClinicasController",
+    "Method": "DelClinicas",
+    "RelativePath": "api/Clinicas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clinicas",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.CLINICAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelClinicas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.LoginController",
+    "Method": "Token",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciales",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.WebApi.DTO.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasController",
+    "Method": "GetAllPersonas",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasController",
+    "Method": "PostPersonas",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Persona",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.PERSONAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasController",
+    "Method": "PutPersonas",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Persona",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.PERSONAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasController",
+    "Method": "DelPersonas",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Persona",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.PERSONAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasTiposController",
+    "Method": "GetPERSONASTIPO",
+    "RelativePath": "api/PersonasTipos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID_TIPO_PERSONA",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetPersonasTipos/{ID_TIPO_PERSONA}"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasXClinicaController",
+    "Method": "GetAllPersonasXClinica",
+    "RelativePath": "api/PersonasXClinica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetPersonasXClinica"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasXClinicaController",
+    "Method": "PostPersonasXClinica",
+    "RelativePath": "api/PersonasXClinica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personasXClinica",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.PERSONAS_X_CLINICA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostPersonasXClinica"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasXClinicaController",
+    "Method": "PutPersonasXClinica",
+    "RelativePath": "api/PersonasXClinica",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personasXClinica",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.PERSONAS_X_CLINICA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutPersonasXClinica"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.PERSONAS.WebApi.Controllers.PersonasXClinicaController",
+    "Method": "DelPersonasXClinica",
+    "RelativePath": "api/PersonasXClinica",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personasXClinica",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.PERSONAS_X_CLINICA",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelPersonasXClinica"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.tipoPersonas.WebApi.Controllers.TipotipoPersonasController",
+    "Method": "GetAlltipoPersonas",
+    "RelativePath": "api/TipotipoPersonas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetTipoPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.tipoPersonas.WebApi.Controllers.TipotipoPersonasController",
+    "Method": "PostTipoPersonas",
+    "RelativePath": "api/TipotipoPersonas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoPersona",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.TIPO_PERSONAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostTipoPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.tipoPersonas.WebApi.Controllers.TipotipoPersonasController",
+    "Method": "PutTipoPersonas",
+    "RelativePath": "api/TipotipoPersonas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoPersona",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.TIPO_PERSONAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutTipoPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.tipoPersonas.WebApi.Controllers.TipotipoPersonasController",
+    "Method": "DelTipoPersonas",
+    "RelativePath": "api/TipotipoPersonas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoPersona",
+        "Type": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS.Model.TIPO_PERSONAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelTipoPersonas"
+  }
+]

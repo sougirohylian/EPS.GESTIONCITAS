@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="EPS.GESTIONCITAS.CITASModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CITAS">
+          <Key>
+            <PropertyRef Name="ID_CITAS" />
+          </Key>
+          <Property Name="ID_CITAS" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FECHA_CITA" Type="datetime" />
+          <Property Name="ID_PERSONA" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ID_MEDICO" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ID_RECETA" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ID_ESTADO" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="ESTADOS_CITAS">
+          <Key>
+            <PropertyRef Name="ID_ESTADO_CITA" />
+          </Key>
+          <Property Name="ID_ESTADO_CITA" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="nvarchar" MaxLength="150" />
+          <Property Name="DESCRIPCION" Type="nvarchar" MaxLength="650" />
+        </EntityType>
+        <EntityContainer Name="EPSGESTIONCITASCITASModelStoreContainer">
+          <EntitySet Name="CITAS" EntityType="Self.CITAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ESTADOS_CITAS" EntityType="Self.ESTADOS_CITAS" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EPS.GESTIONCITAS.CITASModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CITAS">
+          <Key>
+            <PropertyRef Name="ID_CITAS" />
+          </Key>
+          <Property Name="ID_CITAS" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FECHA_CITA" Type="DateTime" Precision="3" />
+          <Property Name="ID_PERSONA" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ID_MEDICO" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ID_RECETA" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ID_ESTADO" Type="Decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="ESTADOS_CITAS">
+          <Key>
+            <PropertyRef Name="ID_ESTADO_CITA" />
+          </Key>
+          <Property Name="ID_ESTADO_CITA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="650" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="EntitiesCitas" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CITAS" EntityType="Self.CITAS" />
+          <EntitySet Name="ESTADOS_CITAS" EntityType="Self.ESTADOS_CITAS" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EPSGESTIONCITASCITASModelStoreContainer" CdmEntityContainer="EntitiesCitas">
+          <EntitySetMapping Name="CITAS">
+            <EntityTypeMapping TypeName="EPS.GESTIONCITAS.CITASModel.CITAS">
+              <MappingFragment StoreEntitySet="CITAS">
+                <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+                <ScalarProperty Name="ID_CITAS" ColumnName="ID_CITAS" />
+                <ScalarProperty Name="FECHA_CITA" ColumnName="FECHA_CITA" />
+                <ScalarProperty Name="ID_PERSONA" ColumnName="ID_PERSONA" />
+                <ScalarProperty Name="ID_MEDICO" ColumnName="ID_MEDICO" />
+                <ScalarProperty Name="ID_RECETA" ColumnName="ID_RECETA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ESTADOS_CITAS">
+            <EntityTypeMapping TypeName="EPS.GESTIONCITAS.CITASModel.ESTADOS_CITAS">
+              <MappingFragment StoreEntitySet="ESTADOS_CITAS">
+                <ScalarProperty Name="ID_ESTADO_CITA" ColumnName="ID_ESTADO_CITA" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

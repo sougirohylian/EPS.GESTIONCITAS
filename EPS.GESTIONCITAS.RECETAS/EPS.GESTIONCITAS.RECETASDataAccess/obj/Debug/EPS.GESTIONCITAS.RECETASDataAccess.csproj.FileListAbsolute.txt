@@ -1,0 +1,16 @@
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EPS.GESTIONCITAS.RECETASDataAccess.dll.config
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EPS.GESTIONCITAS.RECETASDataAccess.dll
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EPS.GESTIONCITAS.RECETASDataAccess.pdb
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\obj\Debug\EPS.GESTIONCITAS.RECETASDataAccess.csproj.AssemblyReference.cache
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\obj\Debug\EPS.GESTIONCITAS.RECETASDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\obj\Debug\EPS.GEST.B6D6853D.Up2Date
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\obj\Debug\EPS.GESTIONCITAS.RECETASDataAccess.dll
+C:\Users\johnr\source\repos\EPS.GESTIONCITAS.RECETAS\EPS.GESTIONCITAS.RECETASDataAccess\obj\Debug\EPS.GESTIONCITAS.RECETASDataAccess.pdb

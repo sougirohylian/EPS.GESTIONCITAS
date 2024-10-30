@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EPS.GESTIONCITAS.CITASModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CITAS">
+    <Key>
+      <PropertyRef Name="ID_CITAS" />
+    </Key>
+    <Property Name="ID_CITAS" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FECHA_CITA" Type="DateTime" Precision="3" />
+    <Property Name="ID_PERSONA" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ID_MEDICO" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ID_RECETA" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ID_ESTADO" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ESTADOS_CITAS">
+    <Key>
+      <PropertyRef Name="ID_ESTADO_CITA" />
+    </Key>
+    <Property Name="ID_ESTADO_CITA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="650" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="EntitiesCitas" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CITAS" EntityType="Self.CITAS" />
+    <EntitySet Name="ESTADOS_CITAS" EntityType="Self.ESTADOS_CITAS" />
+  </EntityContainer>
+</Schema>

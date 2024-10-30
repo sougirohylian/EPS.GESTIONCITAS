@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33CEB13E-1AE4-4889-B681-7C54240304B8}|EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASWebApi.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.recetas\\eps.gestioncitas.recetas\\controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CEB13E-1AE4-4889-B681-7C54240304B8}|EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASWebApi.csproj|solutionrelative:eps.gestioncitas.recetas\\controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D8529A-52A4-44CF-9B05-5BDF596467C8}|EPS.GESTIONCITAS.RECETASLogic\\EPS.GESTIONCITAS.RECETASLogic.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\eps.gestioncitas.recetaslogic\\services\\recetasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D8529A-52A4-44CF-9B05-5BDF596467C8}|EPS.GESTIONCITAS.RECETASLogic\\EPS.GESTIONCITAS.RECETASLogic.csproj|solutionrelative:eps.gestioncitas.recetaslogic\\services\\recetasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CEB13E-1AE4-4889-B681-7C54240304B8}|EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASWebApi.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.recetas\\eps.gestioncitas.recetas\\controllers\\estadosrecetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CEB13E-1AE4-4889-B681-7C54240304B8}|EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASWebApi.csproj|solutionrelative:eps.gestioncitas.recetas\\controllers\\estadosrecetacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64D8529A-52A4-44CF-9B05-5BDF596467C8}|EPS.GESTIONCITAS.RECETASLogic\\EPS.GESTIONCITAS.RECETASLogic.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\eps.gestioncitas.recetaslogic\\services\\estadosrecetaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64D8529A-52A4-44CF-9B05-5BDF596467C8}|EPS.GESTIONCITAS.RECETASLogic\\EPS.GESTIONCITAS.RECETASLogic.csproj|solutionrelative:eps.gestioncitas.recetaslogic\\services\\estadosrecetaservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE1D3C5-061E-4E47-BF90-A0983333FEB5}|EPS.GESTIONCITAS.RECETASDataAccess\\EPS.GESTIONCITAS.RECETASDataAccess.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\eps.gestioncitas.recetasdataaccess\\repositories\\estadorecetarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AE1D3C5-061E-4E47-BF90-A0983333FEB5}|EPS.GESTIONCITAS.RECETASDataAccess\\EPS.GESTIONCITAS.RECETASDataAccess.csproj|solutionrelative:eps.gestioncitas.recetasdataaccess\\repositories\\estadorecetarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE1D3C5-061E-4E47-BF90-A0983333FEB5}|EPS.GESTIONCITAS.RECETASDataAccess\\EPS.GESTIONCITAS.RECETASDataAccess.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\eps.gestioncitas.recetasdataaccess\\repositories\\recetasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AE1D3C5-061E-4E47-BF90-A0983333FEB5}|EPS.GESTIONCITAS.RECETASDataAccess\\EPS.GESTIONCITAS.RECETASDataAccess.csproj|solutionrelative:eps.gestioncitas.recetasdataaccess\\repositories\\recetasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EstadosRecetaController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETAS\\Controllers\\EstadosRecetaController.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.RECETAS\\Controllers\\EstadosRecetaController.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETAS\\Controllers\\EstadosRecetaController.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.RECETAS\\Controllers\\EstadosRecetaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:16:34.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstadosRecetaServices.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASLogic\\Services\\EstadosRecetaServices.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.RECETASLogic\\Services\\EstadosRecetaServices.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASLogic\\Services\\EstadosRecetaServices.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.RECETASLogic\\Services\\EstadosRecetaServices.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:08:00.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstadoRecetaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\EstadoRecetaRepository.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\EstadoRecetaRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\EstadoRecetaRepository.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\EstadoRecetaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T17:59:01.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecetasController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETAS\\Controllers\\RecetasController.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.RECETAS\\Controllers\\RecetasController.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETAS\\Controllers\\RecetasController.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.RECETAS\\Controllers\\RecetasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:19:29.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecetasService.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASLogic\\Services\\RecetasService.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.RECETASLogic\\Services\\RecetasService.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASLogic\\Services\\RecetasService.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.RECETASLogic\\Services\\RecetasService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:14:23.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RecetasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\RecetasRepository.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\RecetasRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.RECETAS\\EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\RecetasRepository.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.RECETASDataAccess\\Repositories\\RecetasRepository.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAzwGIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:06:12.094Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

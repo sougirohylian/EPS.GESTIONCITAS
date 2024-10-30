@@ -1,0 +1,6 @@
+@EPS.GESTIONCITAS.PERSONAS.WebApi_HostAddress = http://localhost:5118
+
+GET {{EPS.GESTIONCITAS.PERSONAS.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

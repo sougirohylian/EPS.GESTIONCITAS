@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EPSGESTIONCITASPERSONASModelStoreContainer" CdmEntityContainer="EntitiesPersonas">
+    <EntitySetMapping Name="CLINICAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.CLINICAS">
+        <MappingFragment StoreEntitySet="CLINICAS">
+          <ScalarProperty Name="ID_CLINICA" ColumnName="ID_CLINICA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERSONAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.PERSONAS">
+        <MappingFragment StoreEntitySet="PERSONAS">
+          <ScalarProperty Name="ID_PERSONA" ColumnName="ID_PERSONA" />
+          <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+          <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+          <ScalarProperty Name="FECHA_NACIMIENTO" ColumnName="FECHA_NACIMIENTO" />
+          <ScalarProperty Name="ID_TIPO_PERSONA" ColumnName="ID_TIPO_PERSONA" />
+          <ScalarProperty Name="CEDULA" ColumnName="CEDULA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERSONAS_X_CLINICA">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.PERSONAS_X_CLINICA">
+        <MappingFragment StoreEntitySet="PERSONAS_X_CLINICA">
+          <ScalarProperty Name="ID_PERSONAS_X_CLINICA" ColumnName="ID_PERSONAS_X_CLINICA" />
+          <ScalarProperty Name="ID_CLINICA" ColumnName="ID_CLINICA" />
+          <ScalarProperty Name="ID_PERSONA" ColumnName="ID_PERSONA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TIPO_PERSONAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.TIPO_PERSONAS">
+        <MappingFragment StoreEntitySet="TIPO_PERSONAS">
+          <ScalarProperty Name="ID_TIPO_PERSONA" ColumnName="ID_TIPO_PERSONA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,247 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApiTest\\EPS.GESTIONCITAS.PERSONAS.WebApiTest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS.csproj",
+        "projectName": "EPS.GESTIONCITAS.PERSONAS.DATAACCESS",
+        "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.LOGIC\\EPS.GESTIONCITAS.PERSONAS.LOGIC.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.LOGIC\\EPS.GESTIONCITAS.PERSONAS.LOGIC.csproj",
+        "projectName": "EPS.GESTIONCITAS.PERSONAS.LOGIC",
+        "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.LOGIC\\EPS.GESTIONCITAS.PERSONAS.LOGIC.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS.csproj": {
+                "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS\\EPS.GESTIONCITAS.PERSONAS.DATAACCESS.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApiTest\\EPS.GESTIONCITAS.PERSONAS.WebApiTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApiTest\\EPS.GESTIONCITAS.PERSONAS.WebApiTest.csproj",
+        "projectName": "EPS.GESTIONCITAS.PERSONAS.WebApiTest",
+        "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApiTest\\EPS.GESTIONCITAS.PERSONAS.WebApiTest.csproj",
+        "packagesPath": "C:\\Users\\johnr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApiTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\johnr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApi\\EPS.GESTIONCITAS.PERSONAS.WebApi.csproj": {
+                "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApi\\EPS.GESTIONCITAS.PERSONAS.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApi\\EPS.GESTIONCITAS.PERSONAS.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApi\\EPS.GESTIONCITAS.PERSONAS.WebApi.csproj",
+        "projectName": "EPS.GESTIONCITAS.PERSONAS.WebApi",
+        "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApi\\EPS.GESTIONCITAS.PERSONAS.WebApi.csproj",
+        "packagesPath": "C:\\Users\\johnr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\johnr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.LOGIC\\EPS.GESTIONCITAS.PERSONAS.LOGIC.csproj": {
+                "projectPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.PERSONAS\\EPS.GESTIONCITAS.PERSONAS.LOGIC\\EPS.GESTIONCITAS.PERSONAS.LOGIC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.31, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EPS.GESTIONCITAS.PERSONASModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="CLINICAS">
+    <Key>
+      <PropertyRef Name="ID_CLINICA" />
+    </Key>
+    <Property Name="ID_CLINICA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="DIRECCION" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="PERSONAS">
+    <Key>
+      <PropertyRef Name="ID_PERSONA" />
+    </Key>
+    <Property Name="ID_PERSONA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRES" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+    <Property Name="APELLIDOS" Type="String" MaxLength="650" FixedLength="false" Unicode="true" />
+    <Property Name="FECHA_NACIMIENTO" Type="DateTime" Precision="0" />
+    <Property Name="ID_TIPO_PERSONA" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="CEDULA" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="PERSONAS_X_CLINICA">
+    <Key>
+      <PropertyRef Name="ID_PERSONAS_X_CLINICA" />
+    </Key>
+    <Property Name="ID_PERSONAS_X_CLINICA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_CLINICA" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="ID_PERSONA" Type="Decimal" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="TIPO_PERSONAS">
+    <Key>
+      <PropertyRef Name="ID_TIPO_PERSONA" />
+    </Key>
+    <Property Name="ID_TIPO_PERSONA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NOMBRE" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="DESCRIPCION" Type="String" MaxLength="650" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="EntitiesPersonas" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CLINICAS" EntityType="Self.CLINICAS" />
+    <EntitySet Name="PERSONAS" EntityType="Self.PERSONAS" />
+    <EntitySet Name="PERSONAS_X_CLINICA" EntityType="Self.PERSONAS_X_CLINICA" />
+    <EntitySet Name="TIPO_PERSONAS" EntityType="Self.TIPO_PERSONAS" />
+  </EntityContainer>
+</Schema>

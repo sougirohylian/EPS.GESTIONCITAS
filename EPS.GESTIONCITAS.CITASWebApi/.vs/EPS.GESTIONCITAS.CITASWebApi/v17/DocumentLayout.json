@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75F4FEBE-197E-4E9D-A76D-2085A1924316}|EPS.GESTIONCITAS.CITASLogic\\EPS.GESTIONCITAS.CITASLogic.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\eps.gestioncitas.citaslogic\\services\\citasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F4FEBE-197E-4E9D-A76D-2085A1924316}|EPS.GESTIONCITAS.CITASLogic\\EPS.GESTIONCITAS.CITASLogic.csproj|solutionrelative:eps.gestioncitas.citaslogic\\services\\citasservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.citaswebapi\\eps.gestioncitas.citaswebapi\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|solutionrelative:eps.gestioncitas.citaswebapi\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.citaswebapi\\eps.gestioncitas.citaswebapi\\controllers\\citasestadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|solutionrelative:eps.gestioncitas.citaswebapi\\controllers\\citasestadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.citaswebapi\\eps.gestioncitas.citasdataaccess\\repositories\\citasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|solutionrelative:eps.gestioncitas.citasdataaccess\\repositories\\citasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.citaswebapi\\eps.gestioncitas.citaswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|solutionrelative:eps.gestioncitas.citaswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\eps.gestioncitas.citasdataaccess\\model\\modelcitas.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|solutionrelative:eps.gestioncitas.citasdataaccess\\model\\modelcitas.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|c:\\users\\johnr\\source\\repos\\eps.gestioncitas.citaswebapi\\eps.gestioncitas.citaswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D856DFBF-4604-4D03-8DDC-C416BFA7B007}|EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi.csproj|solutionrelative:eps.gestioncitas.citaswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F4FEBE-197E-4E9D-A76D-2085A1924316}|EPS.GESTIONCITAS.CITASLogic\\EPS.GESTIONCITAS.CITASLogic.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\eps.gestioncitas.citaslogic\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{75F4FEBE-197E-4E9D-A76D-2085A1924316}|EPS.GESTIONCITAS.CITASLogic\\EPS.GESTIONCITAS.CITASLogic.csproj|solutionrelative:eps.gestioncitas.citaslogic\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\eps.gestioncitas.citasdataaccess\\model\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|solutionrelative:eps.gestioncitas.citasdataaccess\\model\\citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\eps.gestioncitas.citasdataaccess\\model\\estados_citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47BA784-55F5-4B4C-BDE3-63880D0673FC}|EPS.GESTIONCITAS.CITASDataAccess\\EPS.GESTIONCITAS.CITASDataAccess.csproj|solutionrelative:eps.gestioncitas.citasdataaccess\\model\\estados_citas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\Program.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASWebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:26:34.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ESTADOS_CITAS.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Model\\ESTADOS_CITAS.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASDataAccess\\Model\\ESTADOS_CITAS.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Model\\ESTADOS_CITAS.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASDataAccess\\Model\\ESTADOS_CITAS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:13:27.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CITAS.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Model\\CITAS.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASDataAccess\\Model\\CITAS.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Model\\CITAS.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASDataAccess\\Model\\CITAS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:13:18.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModelCitas.Context.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Model\\ModelCitas.Context.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASDataAccess\\Model\\ModelCitas.Context.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Model\\ModelCitas.Context.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASDataAccess\\Model\\ModelCitas.Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:12:21.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CitasEstadosController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasEstadosController.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasEstadosController.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasEstadosController.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasEstadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T21:09:51.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASWebApi\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:19:47.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitasServices.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASLogic\\Services\\CitasServices.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASLogic\\Services\\CitasServices.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASLogic\\Services\\CitasServices.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASLogic\\Services\\CitasServices.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAiwHUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T20:11:36.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CitasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Repositories\\CitasRepository.cs",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASDataAccess\\Repositories\\CitasRepository.cs",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASDataAccess\\Repositories\\CitasRepository.cs",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASDataAccess\\Repositories\\CitasRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T19:55:33.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASLogic\\app.config",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASLogic\\app.config",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASLogic\\app.config",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASLogic\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-22T21:21:30.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "EPS.GESTIONCITAS.CITASWebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\johnr\\source\\repos\\EPS.GESTIONCITAS.CITASWebApi\\EPS.GESTIONCITAS.CITASWebApi\\appsettings.json",
+              "RelativeToolTip": "EPS.GESTIONCITAS.CITASWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T21:21:57.548Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

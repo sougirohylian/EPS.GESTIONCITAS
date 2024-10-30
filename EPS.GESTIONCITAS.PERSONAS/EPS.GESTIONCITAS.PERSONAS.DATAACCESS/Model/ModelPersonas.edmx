@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EPS.GESTIONCITAS.PERSONASModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CLINICAS">
+          <Key>
+            <PropertyRef Name="ID_CLINICA" />
+          </Key>
+          <Property Name="ID_CLINICA" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="nvarchar" MaxLength="450" />
+          <Property Name="DIRECCION" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="PERSONAS">
+          <Key>
+            <PropertyRef Name="ID_PERSONA" />
+          </Key>
+          <Property Name="ID_PERSONA" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRES" Type="nvarchar" MaxLength="450" />
+          <Property Name="APELLIDOS" Type="nvarchar" MaxLength="650" />
+          <Property Name="FECHA_NACIMIENTO" Type="date" />
+          <Property Name="ID_TIPO_PERSONA" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="CEDULA" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="PERSONAS_X_CLINICA">
+          <Key>
+            <PropertyRef Name="ID_PERSONAS_X_CLINICA" />
+          </Key>
+          <Property Name="ID_PERSONAS_X_CLINICA" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ID_CLINICA" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="ID_PERSONA" Type="numeric" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="TIPO_PERSONAS">
+          <Key>
+            <PropertyRef Name="ID_TIPO_PERSONA" />
+          </Key>
+          <Property Name="ID_TIPO_PERSONA" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NOMBRE" Type="nvarchar" MaxLength="350" />
+          <Property Name="DESCRIPCION" Type="nvarchar" MaxLength="650" />
+        </EntityType>
+        <EntityContainer Name="EPSGESTIONCITASPERSONASModelStoreContainer">
+          <EntitySet Name="CLINICAS" EntityType="Self.CLINICAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PERSONAS" EntityType="Self.PERSONAS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PERSONAS_X_CLINICA" EntityType="Self.PERSONAS_X_CLINICA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TIPO_PERSONAS" EntityType="Self.TIPO_PERSONAS" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EPS.GESTIONCITAS.PERSONASModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="CLINICAS">
+          <Key>
+            <PropertyRef Name="ID_CLINICA" />
+          </Key>
+          <Property Name="ID_CLINICA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="DIRECCION" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="PERSONAS">
+          <Key>
+            <PropertyRef Name="ID_PERSONA" />
+          </Key>
+          <Property Name="ID_PERSONA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRES" Type="String" MaxLength="450" FixedLength="false" Unicode="true" />
+          <Property Name="APELLIDOS" Type="String" MaxLength="650" FixedLength="false" Unicode="true" />
+          <Property Name="FECHA_NACIMIENTO" Type="DateTime" Precision="0" />
+          <Property Name="ID_TIPO_PERSONA" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CEDULA" Type="Decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="PERSONAS_X_CLINICA">
+          <Key>
+            <PropertyRef Name="ID_PERSONAS_X_CLINICA" />
+          </Key>
+          <Property Name="ID_PERSONAS_X_CLINICA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_CLINICA" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ID_PERSONA" Type="Decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="TIPO_PERSONAS">
+          <Key>
+            <PropertyRef Name="ID_TIPO_PERSONA" />
+          </Key>
+          <Property Name="ID_TIPO_PERSONA" Type="Decimal" Precision="18" Scale="0" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NOMBRE" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="650" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="EntitiesPersonas" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CLINICAS" EntityType="Self.CLINICAS" />
+          <EntitySet Name="PERSONAS" EntityType="Self.PERSONAS" />
+          <EntitySet Name="PERSONAS_X_CLINICA" EntityType="Self.PERSONAS_X_CLINICA" />
+          <EntitySet Name="TIPO_PERSONAS" EntityType="Self.TIPO_PERSONAS" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EPSGESTIONCITASPERSONASModelStoreContainer" CdmEntityContainer="EntitiesPersonas">
+          <EntitySetMapping Name="CLINICAS">
+            <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.CLINICAS">
+              <MappingFragment StoreEntitySet="CLINICAS">
+                <ScalarProperty Name="ID_CLINICA" ColumnName="ID_CLINICA" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PERSONAS">
+            <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.PERSONAS">
+              <MappingFragment StoreEntitySet="PERSONAS">
+                <ScalarProperty Name="ID_PERSONA" ColumnName="ID_PERSONA" />
+                <ScalarProperty Name="NOMBRES" ColumnName="NOMBRES" />
+                <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+                <ScalarProperty Name="FECHA_NACIMIENTO" ColumnName="FECHA_NACIMIENTO" />
+                <ScalarProperty Name="ID_TIPO_PERSONA" ColumnName="ID_TIPO_PERSONA" />
+                <ScalarProperty Name="CEDULA" ColumnName="CEDULA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PERSONAS_X_CLINICA">
+            <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.PERSONAS_X_CLINICA">
+              <MappingFragment StoreEntitySet="PERSONAS_X_CLINICA">
+                <ScalarProperty Name="ID_PERSONAS_X_CLINICA" ColumnName="ID_PERSONAS_X_CLINICA" />
+                <ScalarProperty Name="ID_CLINICA" ColumnName="ID_CLINICA" />
+                <ScalarProperty Name="ID_PERSONA" ColumnName="ID_PERSONA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TIPO_PERSONAS">
+            <EntityTypeMapping TypeName="EPS.GESTIONCITAS.PERSONASModel.TIPO_PERSONAS">
+              <MappingFragment StoreEntitySet="TIPO_PERSONAS">
+                <ScalarProperty Name="ID_TIPO_PERSONA" ColumnName="ID_TIPO_PERSONA" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

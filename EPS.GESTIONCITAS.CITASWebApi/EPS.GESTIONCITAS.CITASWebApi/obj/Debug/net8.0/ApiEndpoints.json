@@ -1,0 +1,187 @@
+[
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.CitasController",
+    "Method": "GetAllCitas",
+    "RelativePath": "api/Citas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetCitas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.CitasController",
+    "Method": "PostCitas",
+    "RelativePath": "api/Citas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Citas",
+        "Type": "EPS.GESTIONCITAS.CITASDataAccess.Model.CITAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostCitas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.CitasController",
+    "Method": "PutCitas",
+    "RelativePath": "api/Citas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Citas",
+        "Type": "EPS.GESTIONCITAS.CITASDataAccess.Model.CITAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutCitas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.CitasController",
+    "Method": "DelCitas",
+    "RelativePath": "api/Citas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Citas",
+        "Type": "EPS.GESTIONCITAS.CITASDataAccess.Model.CITAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelCitas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.CitasEstadosController",
+    "Method": "GetCitasEstados",
+    "RelativePath": "api/CitasEstados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID_ESTADO",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostCitasEstados/{ID_ESTADO}"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.EstadosCitaController",
+    "Method": "GetAllESTADOSCITAS",
+    "RelativePath": "api/EstadosCita",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetEstadosCitas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.EstadosCitaController",
+    "Method": "PostEstadosCita",
+    "RelativePath": "api/EstadosCita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadosCitas",
+        "Type": "EPS.GESTIONCITAS.CITASDataAccess.Model.ESTADOS_CITAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostEstadosCitas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.EstadosCitaController",
+    "Method": "PutEstadosCita",
+    "RelativePath": "api/EstadosCita",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadosCitas",
+        "Type": "EPS.GESTIONCITAS.CITASDataAccess.Model.ESTADOS_CITAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutEstadosCita"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.EstadosCitaController",
+    "Method": "DelPersonas",
+    "RelativePath": "api/EstadosCita",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadosCitas",
+        "Type": "EPS.GESTIONCITAS.CITASDataAccess.Model.ESTADOS_CITAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelEstadosCita"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.LoginController",
+    "Method": "Token",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciales",
+        "Type": "EPS.GESTIONCITAS.CITASWebApi.DTO.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.PersonasController",
+    "Method": "GetAllPersonas",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetPersonas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.CITASWebApi.Controllers.RecetasController",
+    "Method": "PostReceta",
+    "RelativePath": "api/Recetas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receta",
+        "Type": "EPS.GESTIONCITAS.CITASLogic.DTO.RecetasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostReceta"
+  }
+]

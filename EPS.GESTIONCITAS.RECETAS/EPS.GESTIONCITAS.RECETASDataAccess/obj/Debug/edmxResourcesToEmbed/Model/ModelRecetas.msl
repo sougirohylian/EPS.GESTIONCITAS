@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EPSGESTIONCITASRECETASModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="ESTADOS_RECETAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.RECETASModel.ESTADOS_RECETAS">
+        <MappingFragment StoreEntitySet="ESTADOS_RECETAS">
+          <ScalarProperty Name="ID_ESTADO_RECETA" ColumnName="ID_ESTADO_RECETA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RECETAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.RECETASModel.RECETAS">
+        <MappingFragment StoreEntitySet="RECETAS">
+          <ScalarProperty Name="ID_RECETA" ColumnName="ID_RECETA" />
+          <ScalarProperty Name="ID_MEDICO" ColumnName="ID_MEDICO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

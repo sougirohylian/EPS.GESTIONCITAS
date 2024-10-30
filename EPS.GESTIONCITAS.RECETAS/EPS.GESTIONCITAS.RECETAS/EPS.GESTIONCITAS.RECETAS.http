@@ -1,0 +1,6 @@
+@EPS.GESTIONCITAS.RECETAS_HostAddress = http://localhost:5121
+
+GET {{EPS.GESTIONCITAS.RECETAS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

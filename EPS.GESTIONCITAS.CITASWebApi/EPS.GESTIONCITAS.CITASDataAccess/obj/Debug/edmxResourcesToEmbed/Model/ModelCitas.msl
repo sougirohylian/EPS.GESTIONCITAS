@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EPSGESTIONCITASCITASModelStoreContainer" CdmEntityContainer="EntitiesCitas">
+    <EntitySetMapping Name="CITAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.CITASModel.CITAS">
+        <MappingFragment StoreEntitySet="CITAS">
+          <ScalarProperty Name="ID_ESTADO" ColumnName="ID_ESTADO" />
+          <ScalarProperty Name="ID_CITAS" ColumnName="ID_CITAS" />
+          <ScalarProperty Name="FECHA_CITA" ColumnName="FECHA_CITA" />
+          <ScalarProperty Name="ID_PERSONA" ColumnName="ID_PERSONA" />
+          <ScalarProperty Name="ID_MEDICO" ColumnName="ID_MEDICO" />
+          <ScalarProperty Name="ID_RECETA" ColumnName="ID_RECETA" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ESTADOS_CITAS">
+      <EntityTypeMapping TypeName="EPS.GESTIONCITAS.CITASModel.ESTADOS_CITAS">
+        <MappingFragment StoreEntitySet="ESTADOS_CITAS">
+          <ScalarProperty Name="ID_ESTADO_CITA" ColumnName="ID_ESTADO_CITA" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,142 @@
+[
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETASWebApi.Controllers.EstadosRecetaController",
+    "Method": "GetAllESTADOSRECETAS",
+    "RelativePath": "api/EstadosReceta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetEstadosRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETASWebApi.Controllers.EstadosRecetaController",
+    "Method": "PostEstadosRecetas",
+    "RelativePath": "api/EstadosReceta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadosRecetas",
+        "Type": "EPS.GESTIONCITAS.RECETASDataAccess.Model.ESTADOS_RECETAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostEstadosRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETASWebApi.Controllers.EstadosRecetaController",
+    "Method": "PutEstadosRecetas",
+    "RelativePath": "api/EstadosReceta",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadosRecetas",
+        "Type": "EPS.GESTIONCITAS.RECETASDataAccess.Model.ESTADOS_RECETAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutEstadosRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETASWebApi.Controllers.EstadosRecetaController",
+    "Method": "DelEstadosPersonas",
+    "RelativePath": "api/EstadosReceta",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadosRecetas",
+        "Type": "EPS.GESTIONCITAS.RECETASDataAccess.Model.ESTADOS_RECETAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelEstadosRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETASWebApi.Controllers.LoginController",
+    "Method": "Token",
+    "RelativePath": "api/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "credenciales",
+        "Type": "EPS.GESTIONCITAS.RECETASWebApi.DTO.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETAS.Controllers.RecetasController",
+    "Method": "GetAllRecetas",
+    "RelativePath": "api/Recetas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETAS.Controllers.RecetasController",
+    "Method": "PostRecetas",
+    "RelativePath": "api/Recetas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetas",
+        "Type": "EPS.GESTIONCITAS.RECETASDataAccess.Model.RECETAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PostRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETAS.Controllers.RecetasController",
+    "Method": "PutRecetas",
+    "RelativePath": "api/Recetas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetas",
+        "Type": "EPS.GESTIONCITAS.RECETASDataAccess.Model.RECETAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "PutRecetas"
+  },
+  {
+    "ContainingType": "EPS.GESTIONCITAS.RECETAS.Controllers.RecetasController",
+    "Method": "DelPersonas",
+    "RelativePath": "api/Recetas",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "recetas",
+        "Type": "EPS.GESTIONCITAS.RECETASDataAccess.Model.RECETAS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DelRecetas"
+  }
+]
